@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | SampleRunner</title>
+    <title>Unity WebGL Player | DemoRunner</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">SampleRunner</div>
+        <div id="unity-build-title">DemoRunner</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/RunnerGameWebApp.loader.js";
+      var loaderUrl = buildUrl + "/jungle_rush_web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/RunnerGameWebApp.data",
-        frameworkUrl: buildUrl + "/RunnerGameWebApp.framework.js",
-        codeUrl: buildUrl + "/RunnerGameWebApp.wasm",
+        dataUrl: buildUrl + "/jungle_rush_web.data.br",
+        frameworkUrl: buildUrl + "/jungle_rush_web.framework.js.br",
+        codeUrl: buildUrl + "/jungle_rush_web.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "SampleRunner",
+        productName: "DemoRunner",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
